@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Registration from './componunt/Registration'
-import Footer from './componunt/footer'
-import Navbar from './componunt/Navbar'
+import Registration from './components/Registration'
+import Footer from './components/footer'
+import Navbar from './components/Navbar'
 function App() {
   const [count, setCount] = useState(0)
 
