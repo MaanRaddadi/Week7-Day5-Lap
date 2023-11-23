@@ -8,7 +8,7 @@ const showMore = "عرض المزيد"
     <>
      <CardContainer></CardContainer>
      <div className='moreBtn-container'>
-     <ShowMoreBtn>{showMore}</ShowMoreBtn>
+     <ShowMoreBtn btnText={showMore}></ShowMoreBtn>
      </div>
      
     </>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ShowMoreBtn() {
+function ShowMoreBtn(props) {
   return (
-    <a class="more-bootcamps" href="#">عرض المزيد</a>
+    <a class="more-bootcamps" href="#">{props.btnText}</a>
   )
 }
 
