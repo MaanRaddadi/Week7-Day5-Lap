@@ -11,7 +11,7 @@ function CardContainer(props) {
         <CardComponent type="برنامج" cardTitle="تطبيقات إنترنت الأشياء للمدن الذكية" city="الرياض" duration="أسبوعان" date="يبدأ في 10-12-2023"></CardComponent>
         <CardComponent type="معسكر" cardTitle="
 تصميم تجربة وواجهات المستخدم" city="الرياض" duration="10 أسابيع" date="يبدأ في 31-12-2023"></CardComponent>
-         <CardComponent type="برنامج" cardTitle="PL-900: أساسيات منصة Microsoft Power Platform" city="الرياض" duration="أسبوع واحد" date="يبدأ في 10/8/2023" closed={true}></CardComponent>
+         <CardComponent type="برنامج" cardTitle="PL-900: أساسيات منصة Microsoft Power Platform" city="الرياض" duration="أسبوع واحد" date="يبدأ في 10-8-2023" closed={true}></CardComponent>
          
     </div>
     

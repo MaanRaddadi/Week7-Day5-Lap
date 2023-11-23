@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 :root {
   --green: #54bbbd;
   --overlay: rgba(105, 71, 164, 0.7);
@@ -10,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Poppins", "Tajawal";
   overflow-x: hidden;
 }
 .bootCamp-card {
