@@ -1,24 +1,22 @@
 
-body{
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
   margin: 0;
   padding: 0;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
-@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 :root {
   --green: #54bbbd;
   --overlay: rgba(105, 71, 164, 0.7);
   --purple: rgb(78, 55, 151);
   --secondGreen: rgb(145 216 219);
   --secondary: #f2f4f7;
-
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "Tajawal";
+  font-family: "Poppins", "Tajawal" !important;
   overflow-x: hidden;
 }
 .bootCamp-card {
@@ -216,34 +214,32 @@ body{
   width: 100%;
 }
 
-.Registration{
-  background-color: #EAECEF;
+.Registration {
+  background-color: #eaecef;
   width: 100vw;
   padding: 10px;
   overflow-x: hidden;
-
 }
-.Registration h1{
-  color: #48338C;
+.Registration h1 {
+  color: #48338c;
   padding: 20px;
   font-weight: bolder;
   font-size: xx-large;
 }
 
-.img-{
+.img- {
   margin-bottom: 40px;
 }
-.Registration-section{
-display: flex;
-flex-direction: row-reverse;
-justify-content: center;
-align-items: center;
-gap: 20px;
-padding-top: 20px;
-width: 100vw;
-
+.Registration-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  width: 100vw;
 }
-.Registration-steps{
+.Registration-steps {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,38 +247,36 @@ width: 100vw;
   padding: 20px;
   font-size: x-large;
 }
-.Registration-steps img{
+.Registration-steps img {
   border-radius: 100%;
   width: 40%;
   height: 40%;
 }
 
-.Footer{
+.Footer {
   padding: 10px;
   width: 100vw;
   height: 30vh;
-  background-color: #48338C;
+  background-color: #48338c;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
-.Footer-section{
+.Footer-section {
   padding: 10px;
   display: flex;
   flex-direction: column;
   padding-right: 20px;
   align-items: center;
   gap: 10px;
-
 }
-.Footer-section a{
+.Footer-section a {
   color: white !important;
   text-decoration: none;
-
 }
 
-.Footer-icon-section{
+.Footer-icon-section {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -292,7 +286,7 @@ width: 100vw;
   gap: 4px;
 }
 
-.Footer-icon{
+.Footer-icon {
   height: 50%;
   width: 50%;
   height: 50%;
@@ -303,8 +297,8 @@ width: 100vw;
   width: 50%;
 } */
 
-.Fotter-section2{
-  background-color: #48338C;
+.Fotter-section2 {
+  background-color: #48338c;
   color: white;
   padding: 10px;
   font-weight: lighter;
@@ -313,17 +307,16 @@ width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.nav{
-direction: rtl;
-width: 100vw;
-background-color: #48338C !important;
-gap: 10px;
+.nav {
+  direction: rtl;
+  width: 100vw;
+  background-color: #48338c !important;
+  gap: 10px;
 }
-.nav-link{
+.nav-link {
   color: white !important;
 }
-#navbarNav{
-justify-content: space-between;
+#navbarNav {
+  justify-content: space-between;
 }
