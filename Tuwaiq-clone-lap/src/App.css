@@ -1,3 +1,9 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400");
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 :root {
@@ -6,6 +12,7 @@
   --purple: rgb(78, 55, 151);
   --secondGreen: rgb(145 216 219);
   --secondary: #f2f4f7;
+
 }
 * {
   margin: 0;
@@ -207,4 +214,116 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.Registration{
+  background-color: #EAECEF;
+  width: 100vw;
+  padding: 10px;
+  overflow-x: hidden;
+
+}
+.Registration h1{
+  color: #48338C;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.img-{
+  margin-bottom: 40px;
+}
+.Registration-section{
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding-top: 20px;
+width: 100vw;
+
+}
+.Registration-steps{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: x-large;
+}
+.Registration-steps img{
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+}
+
+.Footer{
+  padding: 10px;
+  width: 100vw;
+  height: 30vh;
+  background-color: #48338C;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer-section{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  align-items: center;
+  gap: 10px;
+
+}
+.Footer-section a{
+  color: white !important;
+  text-decoration: none;
+
+}
+
+.Footer-icon-section{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  gap: 4px;
+}
+
+.Footer-icon{
+  height: 50%;
+  width: 50%;
+  height: 50%;
+  gap: 4px;
+}
+/* #icon-D{
+  height: 50%;
+  width: 50%;
+} */
+
+.Fotter-section2{
+  background-color: #48338C;
+  color: white;
+  padding: 10px;
+  font-weight: lighter;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nav{
+direction: rtl;
+width: 100vw;
+background-color: #48338C !important;
+gap: 10px;
+}
+.nav-link{
+  color: white !important;
+}
+#navbarNav{
+justify-content: space-between;
 }
